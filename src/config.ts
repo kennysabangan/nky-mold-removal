@@ -70,8 +70,8 @@ export const siteConfig = {
   brandColor: "#1a6bb5",
 
   // ── Hero content ─────────────────────────────────────────────────
-  heroTagline: "Northern Kentucky's Trusted Mold Removal Service",
-  heroSubtext: "Protect your family's health. Professional mold remediation you can trust. Call for a free inspection.",
+  heroTagline: "Professional Mold Removal in Northern Kentucky",
+  heroSubtext: "Professional mold remediation serving Florence, Covington, Fort Mitchell, and all of NKY. Call for a free inspection.",
   heroAlt: "Professional mold removal technician at work",
 
   // ── Computed city lists ──────────────────────────────────────────
@@ -91,7 +91,7 @@ export const siteConfig = {
       title: "Mold Inspection & Testing",
       slug: "inspection-testing",
       description:
-        "Professional mold inspection with air quality testing. We identify the type and extent of mold in your home. Lab-certified results in 24-48 hours. Free visual inspections across NKY.",
+        "Professional mold inspection with air quality testing. We identify the type and extent of mold in your home. Results within 24-48 hours. Free visual inspections across NKY.",
       photo: "/photos/residential.jpg",
     },
     {
@@ -115,12 +115,12 @@ export const siteConfig = {
     {
       question: "How much does mold removal cost?",
       answer:
-        "$500-$6,000 depending on extent. Small areas start at $500. Large-scale remediation can run $3,000-$6,000. Call (859) 555-0700 for a free inspection.",
+        "Call (859) 555-0700 for a free inspection to get an accurate quote for your specific situation.",
     },
     {
       question: "Is mold dangerous?",
       answer:
-        "Yes. Mold can cause respiratory issues, allergies, headaches, and fatigue. Black mold (Stachybotrys) is particularly toxic. If you see or smell mold, call a professional.",
+        "Yes. Mold can cause respiratory issues, allergies, and other health concerns. If you see or smell mold, call a professional.",
     },
     {
       question: "How do I know if I have mold?",
@@ -140,12 +140,12 @@ export const siteConfig = {
     {
       question: "Will the mold come back?",
       answer:
-        "Not if we address the moisture source. Our prevention services include moisture control and encapsulation to keep mold from returning.",
+        "Our prevention services include moisture control and encapsulation to reduce the chance of mold returning.",
     },
     {
       question: "Do you work with insurance?",
       answer:
-        "Yes. Mold remediation is often covered by homeowners insurance. We work directly with your insurance company to make the process as smooth as possible.",
+        "Mold remediation may be covered by homeowners insurance depending on your policy. We can provide documentation to support your claim.",
     },
     {
       question: "How do I schedule?",
@@ -162,7 +162,7 @@ export const siteConfig = {
       lat: "38.9989",
       lng: "-84.6266",
       intro:
-        "Florence homeowners trust NKY Mold Removal Pros for professional mold removal services that protect their families and homes. Whether you live near the Florence Mall area or in one of the neighborhoods off US-42, our team brings certified equipment and proven remediation techniques right to your door. Northern Kentucky's humid summers and older housing stock create ideal conditions for mold growth, and we've handled hundreds of cases across Florence — from basement black mold to attic infestations. Florence's mix of older homes and new construction means we've seen every type of mold problem, and we know how to eliminate it safely and completely.",
+        "Florence homeowners trust NKY Mold Removal Pros for professional mold removal services that protect their families and homes. Whether you live near the Florence Mall area or in one of the neighborhoods off US-42, our team brings professional equipment and proven remediation techniques right to your door. Northern Kentucky's humid summers and older housing stock create ideal conditions for mold growth, and we serve homes across Florence — from basement black mold to attic infestations. Florence's mix of older homes and new construction means we've seen every type of mold problem, and we know how to eliminate it safely and completely.",
     },
     {
       name: "Covington, KY",
@@ -170,7 +170,7 @@ export const siteConfig = {
       lat: "39.0836",
       lng: "-84.5085",
       intro:
-        "Covington's historic neighborhoods and riverfront properties are especially vulnerable to mold — the Ohio River's proximity means higher humidity year-round, and older structures often have hidden moisture problems behind plaster and lathe walls. NKY Mold Removal Pros has been serving Covington residents and businesses for years, from the charming Victorian homes of Licking Riverside to the commercial spaces along Madison Avenue. Our team is experienced with the unique challenges Covington properties present — aging foundations near the Roebling Bridge, crawl space moisture, and the mold that thrives in historic basements. We take pride in keeping Covington homes safe and mold-free.",
+        "Covington's historic neighborhoods and riverfront properties are especially vulnerable to mold — the Ohio River's proximity means higher humidity year-round, and older structures often have hidden moisture problems behind plaster and lathe walls. NKY Mold Removal Pros serves Covington residents and businesses, from the charming Victorian homes of Licking Riverside to the commercial spaces along Madison Avenue. Our team is experienced with the unique challenges Covington properties present — aging foundations near the Roebling Bridge, crawl space moisture, and the mold that thrives in historic basements. We take pride in keeping Covington homes safe and mold-free.",
     },
     {
       name: "Fort Mitchell, KY",
@@ -178,7 +178,7 @@ export const siteConfig = {
       lat: "39.0458",
       lng: "-84.5533",
       intro:
-        "Fort Mitchell is one of Northern Kentucky's most desirable communities, and homeowners here expect a higher standard of service when mold appears. NKY Mold Removal Pros delivers exactly that. We specialize in thorough, detail-oriented mold remediation that Fort Mitchell properties deserve — from the stately homes along Dixie Highway to the well-maintained colonials in the residential side streets. Our technicians are background-checked, fully insured, and trained to treat your home with the same respect they'd treat their own. Fort Mitchell residents choose us because we show up on time, do the job right, and leave every surface clean and treated.",
+        "Fort Mitchell is one of Northern Kentucky's most desirable communities, and homeowners here expect a higher standard of service when mold appears. NKY Mold Removal Pros delivers exactly that. We specialize in thorough, detail-oriented mold remediation that Fort Mitchell properties deserve — from the stately homes along Dixie Highway to the well-maintained colonials in the residential side streets. Our technicians are trained to treat your home with the same respect they'd treat their own. Fort Mitchell residents choose us because we show up on time, do the job right, and leave every surface clean and treated.",
     },
     {
       name: "Erlanger, KY",
@@ -210,7 +210,7 @@ export const siteConfig = {
       lat: "39.0142",
       lng: "-84.5779",
       intro:
-        "Edgewood's well-kept homes and tree-lined streets make it one of Kenton County's most charming communities — and NKY Mold Removal Pros helps keep it that way by tackling mold problems quickly and professionally. We've served Edgewood homeowners for years, providing the kind of careful, thorough mold remediation that this neighborhood's beautiful properties demand. From the homes along Turkeyfoot Road to the quiet cul-de-sacs throughout the city, we know how to navigate Edgewood's varied construction and deliver consistently excellent results. Our team protects your property and leaves every treated area clean and safe.",
+        "Edgewood's well-kept homes and tree-lined streets make it one of Kenton County's most charming communities — and NKY Mold Removal Pros helps keep it that way by tackling mold problems quickly and professionally. We serve Edgewood homeowners, providing the kind of careful, thorough mold remediation that this neighborhood's beautiful properties demand. From the homes along Turkeyfoot Road to the quiet cul-de-sacs throughout the city, we know how to navigate Edgewood's varied construction and deliver consistently excellent results. Our team protects your property and leaves every treated area clean and safe.",
     },
     {
       name: "Fort Thomas, KY",
@@ -226,7 +226,7 @@ export const siteConfig = {
       lat: "39.1042",
       lng: "-84.4762",
       intro:
-        "Bellevue's revitalized Fairfield Avenue corridor and charming hillside homes make it a standout community in Northern Kentucky. NKY Mold Removal Pros is honored to serve Bellevue residents and business owners with top-quality mold removal services. We understand the mix of historic and modern properties that define Bellevue, and we approach each job with the care and attention your home or business deserves. From the panoramic views along the river hills to the cozy bungalows in the side streets, we bring the same level of professionalism to every appointment. Bellevue is a community that takes pride in its homes, and we're here to help.",
+        "Bellevue's revitalized Fairfield Avenue corridor and charming hillside homes make it a standout community in Northern Kentucky. NKY Mold Removal Pros is honored to serve Bellevue residents and business owners with mold removal services. We understand the mix of historic and modern properties that define Bellevue, and we approach each job with the care and attention your home or business deserves. From the panoramic views along the river hills to the cozy bungalows in the side streets, we bring the same level of professionalism to every appointment. Bellevue is a community that takes pride in its homes, and we're here to help.",
     },
     {
       name: "Cold Spring, KY",
@@ -250,7 +250,7 @@ export const siteConfig = {
       lat: "39.0625",
       lng: "-84.5916",
       intro:
-        "Villa Hills is one of Northern Kentucky's premier residential communities, and the homes here deserve nothing less than the best when mold appears. NKY Mold Removal Pros delivers premium mold remediation services that match Villa Hills' high standards. The city's elevated terrain and river-adjacent location mean your home faces unique moisture challenges — morning fog, seasonal flooding concerns, and the humidity that comes with proximity to the Ohio River floodplain. Our team is equipped to handle all of it, using professional-grade containment and remediation techniques that leave your home truly safe and mold-free.",
+        "Villa Hills is one of Northern Kentucky's premier residential communities, and the homes here deserve nothing less than the best when mold appears. NKY Mold Removal Pros delivers mold remediation services that match Villa Hills' high standards. The city's elevated terrain and river-adjacent location mean your home faces unique moisture challenges — morning fog, seasonal flooding concerns, and the humidity that comes with proximity to the Ohio River floodplain. Our team is equipped to handle all of it, using professional-grade containment and remediation techniques that leave your home truly safe and mold-free.",
     },
     {
       name: "Crescent Springs, KY",
@@ -258,7 +258,7 @@ export const siteConfig = {
       lat: "39.0544",
       lng: "-84.5829",
       intro:
-        "Crescent Springs residents appreciate quality, and NKY Mold Removal Pros delivers it with every visit. We've been serving this close-knit community with professional mold removal that homeowners and businesses rely on. Whether your property is along Buttermilk Pike or in one of Crescent Springs' well-maintained neighborhoods, we bring the same commitment to excellence. Our team handles everything from attic mold caused by roof leaks to basement mold from foundation seepage. We work efficiently, respect your time, and always deliver results that exceed expectations.",
+        "Crescent Springs residents appreciate quality, and NKY Mold Removal Pros delivers it with every visit. We serve this community with professional mold removal that homeowners and businesses rely on. Whether your property is along Buttermilk Pike or in one of Crescent Springs' well-maintained neighborhoods, we bring the same commitment to excellence. Our team handles everything from attic mold caused by roof leaks to basement mold from foundation seepage. We work efficiently, respect your time, and always deliver results.",
     },
     {
       name: "Lakeside Park, KY",
@@ -266,7 +266,7 @@ export const siteConfig = {
       lat: "39.0331",
       lng: "-84.5711",
       intro:
-        "Lakeside Park may be one of Northern Kentucky's smaller cities, but its residents expect — and deserve — top-tier service when mold threatens their homes. NKY Mold Removal Pros is proud to serve Lakeside Park with professional mold remediation that keeps homes safe and healthy. The tree-lined streets and well-maintained properties that define Lakeside Park require a careful touch, and our technicians deliver exactly that. We protect your belongings, work neatly, and leave every treated surface clean and treated. From post-flood mold cleanup to hidden mold behind walls, Lakeside Park homeowners know they can count on us.",
+        "Lakeside Park may be one of Northern Kentucky's smaller cities, but its residents expect — and deserve — service when mold threatens their homes. NKY Mold Removal Pros is proud to serve Lakeside Park with professional mold remediation that keeps homes safe and healthy. The tree-lined streets and well-maintained properties that define Lakeside Park require a careful touch, and our technicians deliver exactly that. We protect your belongings, work neatly, and leave every treated surface clean and treated. From post-flood mold cleanup to hidden mold behind walls, Lakeside Park homeowners know they can count on us.",
     },
     {
       name: "Park Hills, KY",
@@ -307,7 +307,7 @@ export const siteConfig = {
       lat: "39.2289",
       lng: "-84.3541",
       intro:
-        "Montgomery's tree-canopied streets and stately homes make it one of the Cincinnati area's premier residential communities. NKY Mold Removal Pros extends our premium mold removal services to Montgomery homeowners who expect nothing but the best. The large lots, mature landscaping, and multi-story homes throughout Montgomery require a careful, experienced approach — and our team delivers exactly that. From historic properties near the downtown village center to sprawling estates on the outskirts, we bring the same meticulous attention to detail that has made us Northern Kentucky's most trusted mold removal service.",
+        "Montgomery's tree-canopied streets and stately homes make it one of the Cincinnati area's premier residential communities. NKY Mold Removal Pros extends our mold removal services to Montgomery homeowners who expect nothing but the best. The large lots, mature landscaping, and multi-story homes throughout Montgomery require a careful, experienced approach — and our team delivers exactly that. From historic properties near the downtown village center to sprawling estates on the outskirts, we bring the same meticulous attention to detail that has made us Professional mold removal service.",
     },
     {
       name: "Deer Park, OH",
@@ -323,7 +323,7 @@ export const siteConfig = {
       lat: "39.1987",
       lng: "-84.4281",
       intro:
-        "Amberley Village is one of the Cincinnati area's most exclusive residential communities, with large estates and beautifully maintained properties. NKY Mold Removal Pros provides the premium mold removal service that Amberley homes demand. The spacious lots, mature trees, and high-end finishes throughout this community require a professional touch — and our fully insured, background-checked technicians deliver exactly that. We protect your property, respect your privacy, and leave every treated area clean and safe. Amberley homeowners choose us because we treat every home like it's our own.",
+        "Amberley Village is one of the Cincinnati area's most exclusive residential communities, with large estates and beautifully maintained properties. NKY Mold Removal Pros provides the mold removal service that Amberley homes demand. The spacious lots, mature trees, and high-end finishes throughout this community require a professional touch — and our technicians deliver exactly that. We protect your property, respect your privacy, and leave every treated area clean and safe. Amberley homeowners choose us because we treat every home like it's our own.",
     },
     {
       name: "Westwood, OH",
@@ -393,7 +393,7 @@ export const siteConfig = {
     },
     {
       quote:
-        "We had black mold in our Covington basement. Scary stuff. They came out the next day, set up containment, and removed everything. Professional and thorough.",
+        "We had black mold in our Covington basement. Scary stuff. They came out quickly, set up containment, and removed everything. Professional and thorough.",
       name: "Robert T.",
       city: "Covington, KY",
     },
@@ -416,12 +416,12 @@ export const siteConfig = {
     {
       name: "Jennifer M.",
       location: "Florence, KY",
-      text: "NKY Mold Removal Pros found mold behind our bathroom wall in Florence. They removed it, treated the area, and fixed the moisture issue. Our home smells fresh again. Best mold removal service we've ever used in Northern Kentucky.",
+      text: "NKY Mold Removal Pros found mold behind our bathroom wall in Florence. They removed it, treated the area, and fixed the moisture issue. Our home smells fresh again. Professional mold removal service in Northern Kentucky.",
     },
     {
       name: "Robert T.",
       location: "Covington, KY",
-      text: "We had black mold in our Covington basement. Scary stuff. They came out the next day, set up containment, and removed everything. Professional and thorough. They even tested the air quality after to make sure it was safe.",
+      text: "We had black mold in our Covington basement. Scary stuff. They came out quickly, set up containment, and removed everything. Professional and thorough. They even tested the air quality after to make sure it was safe.",
     },
     {
       name: "Sarah K.",
@@ -446,12 +446,12 @@ export const siteConfig = {
     {
       name: "Karen L.",
       location: "Edgewood, KY",
-      text: "Had recurring mold in our Edgewood bathroom. They found the leak causing it, fixed it, removed the mold, and treated the area. Hasn't come back. Reliable mold removal company in Northern Kentucky that we trust completely.",
+      text: "Had recurring mold in our Edgewood bathroom. They found the leak causing it, fixed it, removed the mold, and treated the area. Hasn't come back. Reliable mold removal company in Northern Kentucky.",
     },
     {
       name: "Tom W.",
       location: "Fort Thomas, KY",
-      text: "Our Fort Thomas home had mold in the attic from a roof leak. These guys removed it all in about a day. They sealed the area, treated everything, and the air quality test came back clean. Best mold removal in NKY.",
+      text: "Our Fort Thomas home had mold in the attic from a roof leak. These guys removed it all in about a day. They sealed the area, treated everything, and the air quality test came back clean. Professional mold removal in NKY.",
     },
   ] as { name: string; location: string; text: string }[],
 };
