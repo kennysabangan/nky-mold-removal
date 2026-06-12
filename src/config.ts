@@ -34,8 +34,8 @@ export interface Testimonial {
 export const siteConfig = {
   // ── Business identity ──────────────────────────────────────────────
   businessName: "NKY Mold Removal Pros",
-  phone: "(859) 555-0700",
-  phoneE164: "+18595550700",
+  phone: "(859) 900-8065",
+  phoneE164: "+18599008065",
   domain: "nkymoldremovalpros.com",
   siteUrl: "https://nkymoldremovalpros.com",
 
@@ -106,7 +106,7 @@ export const siteConfig = {
       slug: "prevention",
       description:
         "Moisture control, dehumidification, and encapsulation to prevent mold from coming back. We address the root cause, not just the symptoms.",
-      photo: "/photos/screen-cleaning.jpg",
+      photo: "/photos/mold-prevention.jpg",
     },
   ] as Service[],
 
@@ -115,7 +115,7 @@ export const siteConfig = {
     {
       question: "How much does mold removal cost?",
       answer:
-        "Call (859) 555-0700 for a free inspection to get an accurate quote for your specific situation.",
+        "Call (859) 900-8065 for a free inspection to get an accurate quote for your specific situation.",
     },
     {
       question: "Is mold dangerous?",
@@ -135,7 +135,7 @@ export const siteConfig = {
     {
       question: "How long does remediation take?",
       answer:
-        "Most jobs take 1-3 days. Large commercial projects may take a week. Call (859) 555-0700 to schedule your free inspection.",
+        "Most jobs take 1-3 days. Large commercial projects may take a week. Call (859) 900-8065 to schedule your free inspection.",
     },
     {
       question: "Will the mold come back?",
@@ -150,7 +150,7 @@ export const siteConfig = {
     {
       question: "How do I schedule?",
       answer:
-        "Call (859) 555-0700. We serve all of Northern Kentucky and greater Cincinnati. We can usually schedule your inspection within a few days.",
+        "Call (859) 900-8065. We serve all of Northern Kentucky and greater Cincinnati. We can usually schedule your inspection within a few days.",
     },
   ] as FAQ[],
 
