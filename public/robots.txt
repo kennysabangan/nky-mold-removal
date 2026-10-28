@@ -26,4 +26,4 @@ Allow: /
 User-agent: Bytespider
 Disallow: /
 
-Sitemap: https://nkymoldremovalpros.com/sitemap-index.xml
+Sitemap: https://www.nkymoldremovalpros.com/sitemap-index.xml

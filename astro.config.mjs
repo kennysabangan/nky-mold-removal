@@ -7,7 +7,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://nkymoldremovalpros.com',
+  site: 'https://www.nkymoldremovalpros.com',
 
   vite: {
     plugins: [tailwindcss()]
