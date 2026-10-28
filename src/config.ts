@@ -35,8 +35,8 @@ export interface FAQ {
 export const siteConfig = {
   // ── Business identity ──────────────────────────────────────────────
   businessName: "NKY Mold Removal Pros",
-  phone: "(859) 900-8065",
-  phoneE164: "+18599008065",
+  phone: "(714) 494-9486",
+  phoneE164: "+17144949486",
   domain: "nkymoldremovalpros.com",
   siteUrl: "https://nkymoldremovalpros.com",
 
@@ -120,7 +120,7 @@ export const siteConfig = {
     {
       question: "How much does mold removal cost?",
       answer:
-        "Call (859) 900-8065 for a free inspection to get an accurate quote for your specific situation.",
+        "Call (714) 494-9486 for a free inspection to get an accurate quote for your specific situation.",
     },
     {
       question: "Is mold dangerous?",
@@ -140,7 +140,7 @@ export const siteConfig = {
     {
       question: "How long does remediation take?",
       answer:
-        "Most jobs take 1-3 days. Large commercial projects may take a week. Call (859) 900-8065 to schedule your free inspection.",
+        "Most jobs take 1-3 days. Large commercial projects may take a week. Call (714) 494-9486 to schedule your free inspection.",
     },
     {
       question: "Will the mold come back?",
@@ -155,7 +155,7 @@ export const siteConfig = {
     {
       question: "How do I schedule?",
       answer:
-        "Call (859) 900-8065. We serve Florence, Covington, Fort Thomas, Newport, and the rest of Northern Kentucky, and can usually schedule your inspection within a few days.",
+        "Call (714) 494-9486. We serve Florence, Covington, Fort Thomas, Newport, and the rest of Northern Kentucky, and can usually schedule your inspection within a few days.",
     },
   ] as FAQ[],
 
