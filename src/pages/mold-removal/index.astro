@@ -14,7 +14,7 @@ const serviceSchema = {
     "name": businessName,
     "telephone": phoneE164,
   },
-  "areaServed": { "@type": "State", "name": "Kentucky" },
+  "areaServed": cities.map((c) => ({ "@type": "City", "name": c.name })),
   "description": `Professional ${serviceKeywordPlural} for residential and commercial properties in ${city}.`,
 };
 
@@ -29,7 +29,7 @@ const breadcrumbSchema = {
 ---
 
 <BaseLayout
-  title={`${serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} Services ${city} | ${businessName}`}
+  title={`Mold Removal Service Areas in Northern Kentucky | ${businessName}`}
   description={`${serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} services in ${city}. We provide ${serviceKeywordPlural} for homes, offices, and commercial buildings across ${region}. Call ${phone} for a free inspection.`}
   canonicalURL={`${siteUrl}/mold-removal/`}
   schema={[breadcrumbSchema, serviceSchema]}
@@ -39,7 +39,7 @@ const breadcrumbSchema = {
 <section class="hero-section">
   <div class="container">
     <h1>{serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} Services in {city}</h1>
-    <p class="hero-sub">Residential {serviceKeyword}, commercial {serviceKeyword}, and more. Serving all of {region}.</p>
+    <p class="hero-sub">Mold inspection, removal, and moisture control for homes and businesses across {region}.</p>
     <PhoneCTA />
   </div>
 </section>
@@ -78,15 +78,15 @@ const breadcrumbSchema = {
 
   <p><strong>Step 1: Call Us.</strong> Give us a call at {phone} and describe what you're seeing or smelling. We'll schedule a free on-site inspection to assess the situation.</p>
 
-  <p><strong>Step 2: Get Your Free Inspection.</strong> We'll inspect your property, test the air quality if needed, and give you a clear, upfront price for remediation. No hidden fees, no surprises.</p>
+  <p><strong>Step 2: Get Your Free Inspection.</strong> We'll inspect your property, arrange air or surface testing if it's needed, and give you a clear price for remediation before any work starts.</p>
 
-  <p><strong>Step 3: We Remove the Mold.</strong> Our team sets up containment barriers, uses HEPA filtration and negative air pressure, and removes all mold safely. We treat affected surfaces with antimicrobial solutions.</p>
+  <p><strong>Step 3: We Remove the Mold.</strong> Our team sets up containment barriers, uses HEPA filtration and negative air pressure, and removes the mold and any moldy materials that can't be cleaned. Affected surfaces are treated with antimicrobial solutions.</p>
 
-  <p><strong>Step 4: Breathe Easy.</strong> Your home will be mold-free and safe. We address the moisture source to prevent recurrence. Not satisfied? We'll come back at no charge. That's our satisfaction guarantee.</p>
+  <p><strong>Step 4: Fix the Moisture.</strong> Mold comes back wherever the water does, so the leak, condensation, or crawl space humidity behind it is addressed with repairs, dehumidification, or encapsulation. Ask about follow-up testing if you want confirmation the work area is clean.</p>
 
   <h2 class="text-brand text-xl md:text-2xl font-bold mb-4 mt-8">{serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} Service Areas</h2>
 
-  <p>We provide {serviceKeywordPlural} across {city}. We serve:</p>
+  <p>Our main service areas in Boone, Kenton, and Campbell counties:</p>
 
   <ul>
     {cities.map((c) => (
@@ -98,7 +98,7 @@ const breadcrumbSchema = {
 <!-- CTA -->
 <section class="bg-gray-50 border-y-2 border-brand">
   <div class="cta-strip container">
-    <p class="cta-heading">Ready for a Mold-Free Home?</p>
+    <p class="cta-heading">Found Mold in Your Home?</p>
     <p class="cta-sub">Call now for a free {serviceKeyword} estimate in {city}.</p>
     <PhoneCTA />
   </div>
@@ -108,7 +108,7 @@ const breadcrumbSchema = {
 <section class="bg-brand-dark text-white">
   <div class="cta-strip container">
     <h2 class="text-white text-xl md:text-2xl font-bold mb-2">Call Now for {serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} in {city}</h2>
-    <p class="text-white/90 text-base mb-4">We provide ${serviceKeywordPlural} across {region}.</p>
+    <p class="text-white/90 text-base mb-4">We provide {serviceKeywordPlural} across {region}.</p>
     <PhoneCTA label="Call Now" />
   </div>
 </section>
