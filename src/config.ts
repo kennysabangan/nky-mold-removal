@@ -75,7 +75,12 @@ export const siteConfig = {
   brandColor: "#1a6bb5",
 
   // ── Hero content ─────────────────────────────────────────────────
-  heroTagline: "Professional Mold Removal in Northern Kentucky",
+  // Homepage <title> / meta description. Keep title <= 60 chars and
+  // description 70-160 chars (search results truncate past that).
+  homeTitle: "Mold Removal & Remediation | Cincinnati & Northern KY",
+  homeDescription:
+    "Mold inspection, removal, and remediation for homes and businesses in Cincinnati & Northern Kentucky, plus moisture control. Free inspection: (714) 494-9486.",
+  heroTagline: "Mold Removal & Remediation in Cincinnati & Northern Kentucky",
   heroSubtext: "Professional mold remediation serving Florence, Covington, Fort Mitchell, and all of NKY. Call for a free inspection.",
   heroAlt: "Professional mold removal technician at work",
 
@@ -227,3 +232,12 @@ export const siteConfig = {
     },
   ] as City[],
 };
+
+/**
+ * Page <title> helper: appends " | businessName" only when the result stays
+ * within 60 characters; otherwise returns the primary phrase on its own.
+ */
+export function seoTitle(primary: string, brand: string = siteConfig.businessName): string {
+  const full = `${primary} | ${brand}`;
+  return full.length <= 60 ? full : primary;
+}

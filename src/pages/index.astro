@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { siteConfig } from '../config';
 
-const { businessName, phone, phoneE164, serviceKeyword, serviceKeywordPlural, city, region, faqs, services, cities, heroTagline, heroSubtext, heroAlt } = siteConfig;
+const { businessName, phone, phoneE164, serviceKeyword, serviceKeywordPlural, city, region, faqs, services, cities, heroTagline, heroSubtext, heroAlt, homeTitle, homeDescription } = siteConfig;
 
 const faqSchema = {
   "@context": "https://schema.org",
@@ -16,8 +16,8 @@ const faqSchema = {
 ---
 
 <BaseLayout
-  title={`${businessName} | ${serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} in ${city}`}
-  description={`Mold inspection, removal, and moisture control for homes and businesses in Florence, Covington, Fort Thomas, Newport, and across Northern Kentucky. Free inspections: ${phone}.`}
+  title={homeTitle}
+  description={homeDescription}
   schema={faqSchema}
 >
 

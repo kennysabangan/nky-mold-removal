@@ -29,8 +29,8 @@ const breadcrumbSchema = {
 ---
 
 <BaseLayout
-  title={`Mold Removal Service Areas in Northern Kentucky | ${businessName}`}
-  description={`${serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} services in ${city}. We provide ${serviceKeywordPlural} for homes, offices, and commercial buildings across ${region}. Call ${phone} for a free inspection.`}
+  title="Mold Inspection, Removal & Remediation | Cincinnati & NKY"
+  description={`Mold inspection, mold removal, and mold remediation for homes and businesses in Cincinnati & Northern Kentucky. Free inspection: ${phone}.`}
   canonicalURL={`${siteUrl}/mold-removal/`}
   schema={[breadcrumbSchema, serviceSchema]}
 >
@@ -38,8 +38,8 @@ const breadcrumbSchema = {
 <!-- Hero -->
 <section class="hero-section">
   <div class="container">
-    <h1>{serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} Services in {city}</h1>
-    <p class="hero-sub">Mold inspection, removal, and moisture control for homes and businesses across {region}.</p>
+    <h1>Mold Removal, Remediation &amp; Inspection Services</h1>
+    <p class="hero-sub">Mold inspection, removal, and moisture control for homes and businesses in {city} and the Greater Cincinnati area.</p>
     <PhoneCTA />
   </div>
 </section>
@@ -58,7 +58,9 @@ const breadcrumbSchema = {
 <div class="content-section">
   <h2 class="text-brand text-xl md:text-2xl font-bold mb-4">Our {serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} Services</h2>
 
-  <p>{businessName} provides professional {serviceKeywordPlural} throughout {city}. We handle mold in homes, offices, crawl spaces, basements, and commercial buildings. Here are the {serviceKeywordPlural} we offer:</p>
+  <p>{businessName} provides mold inspection, mold removal, and mold remediation for homes, offices, crawl spaces, basements, and commercial buildings throughout {city} and the Greater Cincinnati area.</p>
+
+  <p>A mold inspection comes first: it finds where the mold is growing, how far it has spread, and the moisture source feeding it. Mold removal and mold remediation then take out the materials that can't be saved, clean the surfaces that can, and deal with the leak, condensation, or humidity behind the problem so it is less likely to come back. Here are the services we offer:</p>
 
   <div class="grid grid-cols-1 md:grid-cols-2 gap-5 my-8">
     {services.map((service) => (

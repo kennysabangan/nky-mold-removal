@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { siteConfig } from '../../config';
+import { siteConfig, seoTitle } from '../../config';
 import type { City } from '../../config';
 
 export function getStaticPaths() {
@@ -39,8 +39,8 @@ const stateAbbr = city.name.includes('OH') ? 'OH' : 'KY';
 ---
 
 <BaseLayout
-  title={`${serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} in ${city.name} | ${businessName}`}
-  description={`Mold removal in ${cityName}, ${stateAbbr}: inspection, containment and removal, and moisture control for basements, crawl spaces, attics, and walls. Free inspections — call ${phone}.`}
+  title={seoTitle(`Mold Removal in ${city.name}`)}
+  description={`Mold removal in ${city.name}: inspection, remediation, and moisture control for basements, crawl spaces, and attics. Free inspection: ${phone}.`}
   canonicalURL={`${siteUrl}/mold-removal/${city.slug}/`}
   schema={[breadcrumbSchema, cityServiceSchema]}
 >
@@ -340,7 +340,7 @@ const stateAbbr = city.name.includes('OH') ? 'OH' : 'KY';
 <!-- HERO -->
 <section class="page-hero">
   <div class="container">
-    <h1>{serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} in {city.name}</h1>
+    <h1>Mold Removal in {city.name}</h1>
     <p class="hero-sub">Mold inspection, removal, and moisture control in {cityName}, {stateAbbr}.</p>
     <a href={`tel:${phoneE164}`} class="call-now-btn">CALL NOW — {phone}</a>
   </div>
